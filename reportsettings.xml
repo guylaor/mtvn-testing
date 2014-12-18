@@ -1,0 +1,45 @@
+<reportSettings> 
+				<playerInfo> 
+					<viralPlayerName>Viral Player</viralPlayerName> 
+					<partnerPlayerName>Partner Player</partnerPlayerName> 
+					<networkPlayerName>Network Player</networkPlayerName> 
+				</playerInfo> 
+				<videoReporter enabled="true" visitorNamespace="false"> 
+					<mediaTracking heartbeatsDisabled="false" enabled="true" /> 
+					<adTracking enabled="false" /> 
+					<endslateTracking enabled="true" /> 
+					<devAccount>viarnd</devAccount> 
+					<networkAccount>viarnd</networkAccount> 
+					<partnerAccount>viarnd</partnerAccount> 
+					<viralAccount>viarnd</viralAccount> 
+					<customFields> 
+						<item name="prop4" value="Video Detail Page" /> 
+						<item name="eVar14" value="Video Detail Page" /> 
+						<item name="prop17" value="{mtvnOwner}" /> 
+						<item name="eVar27" value="{mtvnOwner}" /> 
+						<item name="prop27" value="{eventType}" /> 
+						<item name="eVar17" value="{eventType}" /> 
+						<item name="prop13" value="{videoTitle}" /> 
+						<item name="prop21" value="{mediaCategory} + : + + {videoTitle}" /> 
+						<item name="prop22" value="{franchise} + : + +{playlistType}" /> 
+						<item name="eVar11" value="{mediaCategory} + : + + {videoTitle}" /> 
+						<item name="eVar12" value="{franchise} + : + +{playlistType}" /> 
+					</customFields> 
+					<propOverrides>prop30</propOverrides> 
+				</videoReporter> 
+				<nielsenReporter enabled="true" dprEnabled="true"> 
+					<applicationId>TF7406A7B-4307-EA02-E040-070AAC31411B</applicationId> 
+					<sfCode>uat-cert</sfCode> 
+					<clientId>us-400235</clientId> 
+					<videoCensusId>c02</videoCensusId> 
+				</nielsenReporter> 
+				<quantCast enabled="false"> 
+					<demoTargeting enabled="true" /> 
+					<publisherId>p-false</publisherId> 
+				</quantCast> 
+				<comScore enabled="true"> 
+					<adTracking enabled="true" /> 
+					<primaryId>6059080</primaryId> 
+					<locationId>0</locationId> 
+				</comScore> 
+			</reportSettings> 
