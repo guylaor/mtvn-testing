@@ -5,7 +5,7 @@
 					<networkPlayerName>Network Player</networkPlayerName> 
 				</playerInfo> 
 				<videoReporter enabled="true" visitorNamespace="false"> 
-					<mediaTracking heartbeatsDisabled="false" enabled="true" /> 
+					<mediaTracking heartbeatsDisabled="true" enabled="true" /> 
 					<adTracking enabled="true" /> 
 					<endslateTracking enabled="true" /> 
 					<devAccount>viarnd</devAccount> 
@@ -13,7 +13,7 @@
 					<partnerAccount>viarnd</partnerAccount> 
 					<viralAccount>viarnd</viralAccount> 
 					<customFields> 
-						<item name="prop4" value="Video Detail Page" /> 
+						<item name="prop4" value="This is an Example!" /> 
 						<item name="eVar14" value="Video Detail Page" /> 
 						<item name="prop17" value="{mtvnOwner}" /> 
 						<item name="eVar27" value="{mtvnOwner}" /> 
