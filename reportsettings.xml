@@ -6,7 +6,7 @@
 				</playerInfo> 
 				<videoReporter enabled="true" visitorNamespace="false"> 
 					<mediaTracking heartbeatsDisabled="false" enabled="true" /> 
-					<adTracking enabled="false" /> 
+					<adTracking enabled="true" /> 
 					<endslateTracking enabled="true" /> 
 					<devAccount>viarnd</devAccount> 
 					<networkAccount>viarnd</networkAccount> 
